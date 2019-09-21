@@ -4,3 +4,8 @@
 
 a = 11
 b = 42
+temp = 0
+
+temp = a
+a=b
+b= temp

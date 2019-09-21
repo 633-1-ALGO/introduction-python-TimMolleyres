@@ -4,3 +4,7 @@
 
 nb_articles = 13
 prix_ht = 42.75
+
+prix_ttc = nb_articles * prix_ht * 1.077
+
+print('Le prix TTC est de ', prix_ttc)
